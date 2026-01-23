@@ -13,12 +13,16 @@
 
 # print(int(10)/5)
 numbers = 0
-for number in range(1, 101):
-    if number%3 == 0 and number%5 == 0:
-        print("fizzbuzz")
-    elif number%3 == 0:
-        print("fizz")
-    elif number%5 == 0:
-        print("buzz")
-    else:
-        print(number)
+# for number in range(1, 101):
+#     if number%3 == 0 and number%5 == 0:
+#         print("fizzbuzz")
+#     elif number%3 == 0:
+#         print("fizz")
+#     elif number%5 == 0:
+#         print("buzz")
+#     else:
+#         print(number)
+        
+while numbers < 100:
+    numbers += 1
+    print(numbers)
